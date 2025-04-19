@@ -35,7 +35,6 @@ This will demonstrate our AI-powered capabilities including:
 
 InsightMinds is built with cutting-edge technologies:
 
-- ⚛️ **Next.js**  - React-based framework for production-ready web applications
 - ⚛️ **Next.js** — React-based framework for production-ready web applications
 - 🗄️ **Supabase** — Open-source Firebase alternative (authentication, database, and storage)
 - 🤖 **OpenAI** — Natural language processing for smart session insights
