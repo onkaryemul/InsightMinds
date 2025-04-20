@@ -374,7 +374,7 @@ export function UploadRecordingDialog() {
                                 <SelectTrigger id="note-type">
                                     <SelectValue />
                                 </SelectTrigger>
-                                <SelectContent>
+                                <SelectContent defaultValue="soap">
                                     <SelectItem value="soap">SOAP</SelectItem>
                                     <SelectItem value="dap">DAP</SelectItem>
                                     <SelectItem value="birp">BIRP</SelectItem>
@@ -388,7 +388,7 @@ export function UploadRecordingDialog() {
                                 <SelectTrigger id="treatment-approach">
                                     <SelectValue placeholder="Select approach" />
                                 </SelectTrigger>
-                                <SelectContent>
+                                <SelectContent defaultValue="CBT">
                                     <SelectItem value="CBT">Cognitive Behavioral Therapy</SelectItem>
                                     <SelectItem value="DBT">Dialectical Behavior Therapy</SelectItem>
                                     <SelectItem value="psychodynamic">Psychodynamic</SelectItem>

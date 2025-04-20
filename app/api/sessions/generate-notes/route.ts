@@ -186,6 +186,7 @@ export async function POST(req: Request) {
                     ${conversationText}
                 `
                 break;
+
             case 'DAP':
                 notesPrompt = `
                     Create a DAP note from this therapy session transcript.
@@ -201,6 +202,7 @@ export async function POST(req: Request) {
                     ${conversationText}
                 `
                 break;
+                
             case 'BIRP':
                 notesPrompt = `
                     Create a BIRP note from this therapy session transcript.
