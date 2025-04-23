@@ -14,7 +14,7 @@ export default async function ClientDashboard() {
         return null
     }
 
-    console.log(user);
+    // console.log(user);
 
     // Get client ID from clients table
     const { data: clientData, error: clientError } = await supabase
@@ -28,7 +28,7 @@ export default async function ClientDashboard() {
         return encodedRedirect("error", "/sign-in", "Client data not found.");
     }
 
-    console.log(clientData);
+    // console.log(clientData);
 
     // Get user's role from profiles
     const { data: profile } = await supabase
