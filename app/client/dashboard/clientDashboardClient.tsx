@@ -14,6 +14,7 @@ interface Message {
     emotions: string | null;
     message_type: 'text' | 'recording';
     event_date: string;
+    sender: 'bot' | 'user'
 }
 
 interface ClientDashboardClientProps {
